@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ID Card Editor</title>
+</head>
+<body>
+    <h2>ID Card Editor</h2>
+    <input type="file" id="frontId" accept="image/*"> Front ID<br>
+    <input type="file" id="userPhoto" accept="image/*"> User Photo<br>
+    <button onclick="process()">Continue (10s)</button>
+    <div id="status"></div>
+    <img id="resultImage" style="width: 100%;">
+    <script src="script.js"></script>
+</body>
+</html>
